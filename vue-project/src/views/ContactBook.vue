@@ -30,8 +30,7 @@
                     <i class="fas fa-address-card"></i>
                 </h4>
                 <ContactCard :contact="activeContact" />
-
-                <router-link
+<router-link
 :to="{
 name: 'contact.edit',
 params: { id: activeContact._id },
